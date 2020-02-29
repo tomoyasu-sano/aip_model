@@ -33,7 +33,6 @@ def make_dataset(low_data, n_prev=100):
 
 """import data 仮で3次元データの作成"""
 #test_data = pd.DataFrame(np.random.randint(1,100, (25, 50)))
-#test_data.head()
 
 """エクセルデータより"""
 test_data = pd.read_excel('./data/sample_data.xlsx')
